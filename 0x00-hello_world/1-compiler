@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -s $CFILE=main.c | mv main.c main.o
+gcc -s $CFILE=main.c | export $CFILE=main.c : main.o

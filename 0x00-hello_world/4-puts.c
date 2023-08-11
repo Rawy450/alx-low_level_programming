@@ -1,2 +1,2 @@
 #!/bin/bash
-puts("Programming is like building a multilingual puzzle")
+gcc puts.c && ./a.out"Programming is like building a multilingual puzzle | echo $?

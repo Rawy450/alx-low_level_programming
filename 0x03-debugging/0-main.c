@@ -5,24 +5,12 @@
 * Return: 0
 */
 
-void positive_or_negative(int i)
+int main(void)
 {
 	int i;
 
-	if (i > 0)
-		printf("%i is positive\n", n);
-	else if (i == 0)
-		printf("%i is zero\n", n);
-	else 
-		printf("%i is negative\n", n);
-}
+	i = 98 % 2;
+	positive_or_negative(i);
 
-int main(void)
-{
-        int i;
-
-        i = 0;
-        positive_or_negative(i);
-
-        return (0);
+	return (0);
 }

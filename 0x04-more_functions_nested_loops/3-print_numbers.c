@@ -12,6 +12,7 @@ void print_numbers(void)
 	do {
 		_putchar(num + 48);
 		num++;
-	} while (i >= 0 && i <= 9);
+	}
+	while (i >= 0 && i <= 9)
 		_putchar('\n');
 }

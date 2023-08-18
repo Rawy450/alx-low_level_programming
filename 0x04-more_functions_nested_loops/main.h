@@ -1,5 +1,5 @@
-#ifndef MYHEADERS_H
-#define MYHEADERS_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 int add(int a, int b);
 int _isupper(int c);

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  * main - check the code
+  * more_numbers - print from 0 to 14 ten times
   * Return: Always 0.
 */
 

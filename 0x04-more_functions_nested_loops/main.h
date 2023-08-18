@@ -1,5 +1,5 @@
-#ifndef MAIN.H
-#define MAIN.H
+#ifndef -MAIN-H-
+#define -MAIN-H-
 
 int add(int a, int b);
 int _isupper(int c);

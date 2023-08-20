@@ -17,7 +17,7 @@ int main(void)
 		if (d1 != d2 && d1 < d2)
 		{
 			putchar(d1 + 48);
-			purchat(d2 + 48);
+			purchar(d2 + 48);
 			if (d1 + d2 != 17)
 				putchar(',');
 			putchar(' ');

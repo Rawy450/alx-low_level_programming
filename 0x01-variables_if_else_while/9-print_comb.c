@@ -2,8 +2,10 @@
 
 /**
 * main - entry point
-* Desciption: print 0, 1, -9
-* return: always (0)
+*
+* Desciption: main print 0, 1, -9
+*
+* Return: always 0 success
 */
 int main(void)
 {

@@ -11,7 +11,7 @@ int main(void)
 	int d1 = 0, d2;
 
 	while (d1 <= 9)
-		d2 = 0;
+	{	d2 = 0;
 	while (d2 <= 9)
 	{
 		if (d1 != d2 && d1 < d2)
@@ -24,6 +24,7 @@ int main(void)
 			putchar(' ');
 			}
 		}
+	}
 	}
 	putchar('\n');
 		return (0);

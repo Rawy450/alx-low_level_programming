@@ -4,7 +4,7 @@
   * @dest: input1
   * @src: input2
   * @n: input most number bytes from @src
-  * Return: @dest
+  * Return: dest
   */
 char *_strncpy(char *dest, char *src, int n)
 {

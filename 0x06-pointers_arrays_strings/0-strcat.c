@@ -8,13 +8,16 @@
   */
 char *_strcat(char *dest, char *src)
 {
-	char s1[98] = "Hello";
-	char s2[] = "world \n";
-	char *pre;
+	int s1, s2;
 
-	if (s1 != '\0')
-		ptr = _strcat(s1, s2);
-	printf("%s", ptr);
+	s1 = 0;
+
+
+	while (dest[s1])
+		s1++;
+	for (s2 = 0, src[s2], s2++)
+
+		dest[s1++] = src[s2];
 	return (0);
 }
 

@@ -1,6 +1,6 @@
 #include"main.h"
 /**
-  * _strch -  function that locates a character in a string
+  * _strchr - function that locates a character in a string
   * @s: input1
   * @c: input 2
   * Return: point to s

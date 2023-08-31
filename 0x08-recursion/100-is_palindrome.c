@@ -7,11 +7,18 @@
   */
 int is_palindrome(char *s)
 {
-	int *s;
+	int left = 0;
+	int right = strlen(s) - 1;
 
-	for (*s = 0, *s < str_len(*s) / 2, *s++);
-		if ( a[*s] != a[str_len - 1 - *s])
+	while (left < right)
+	{
+		if (s[left] != s[right])
 		{
-			return (0);
+			return 0;
 		}
+		left++;
+		right--;
+	}
+
+	return 1;
 }

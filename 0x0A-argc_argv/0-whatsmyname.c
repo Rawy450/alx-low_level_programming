@@ -1,6 +1,8 @@
 #include<stdio.h>
 /**
   * main - emty point
+  * @argc: input
+  * @argv: input
   * return: 0
   */
 int main(int argc, char **argv)

@@ -5,7 +5,7 @@
   * @argv: input 2
   * Return: 0 success
   */
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
 	int i = 0;
 

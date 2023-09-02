@@ -3,7 +3,7 @@
   * main - emty point
   * @argc: in
   * @argv: list
-  * return: 0
+  * Return: always 0 success
   */
 int main(int argc, char **argv)
 {

@@ -9,14 +9,14 @@ int main(int argc, char *argv[])
 {
 	int sum;
 
-	if (argc == 3)
+	if (argc !=  2)
 	{
-		i = atoi(argv[1]) * atoi(argv[2]);
-	printf("%d \n", sum);
-	}
-	else
-	{
-		printf("Error\n");
+		printf("Error");
 	return (1);
+	}
+	{
+		sum = atoi(argc[1]) * atoi(argc[2]);
+		printf("%d\n", sum);
+		return (0);
 	}
 }

@@ -3,9 +3,8 @@
 #include <stdlib.h>
 /**
   * _strdup - function that returns a pointer
-  * @size: input
-  * @ str: input
-  * Return: 0 success
+  * @str: string
+  * Return: 0
   */
 char *_strdup(char *str)
 {

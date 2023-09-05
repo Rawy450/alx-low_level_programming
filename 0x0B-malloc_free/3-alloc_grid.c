@@ -2,15 +2,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-  * **alloc_grid -  function that returns a pointer to a 2 dimensional array of integers
-  * @weight: int
-  * @hight: int
+  * **alloc_grid -  function that returns a pointer
+  * @width: int
+  * @height: int
   * Return: d array
   */
 int **alloc_grid(int width, int height)
 {
 	int **tab, i, j;
-	tab = malloc(sizeof(*tab) * hight);
+
+	tab = malloc(sizeof(*tab) * height);
+
 
 	if (width <= 0 || height <= 0 || tab == 0)
 	{

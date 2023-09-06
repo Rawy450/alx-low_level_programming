@@ -2,11 +2,11 @@
 #include<stdlib.h>
 /**
   * main - prints the minimum number of coins
-  * @arg: input
+  * @argc: input
   * @argv: input
   * Return: 0 success
   */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc == 0)
 	{
@@ -30,7 +30,7 @@ int main (int argc, char *argv[])
 	else
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 	return (0);
 }

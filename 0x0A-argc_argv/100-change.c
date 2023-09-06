@@ -6,7 +6,7 @@
   * @argv: input
   * Return: 0 success
   */
-int main (int argc, char *argc[])
+int main (int argc, char *argv[])
 {
 	if (argc == 0)
 	{
@@ -19,7 +19,7 @@ int main (int argc, char *argc[])
 			{
 				leastcents += money / cents[i];
 				money = money % cents[i];
-				if (money % cent[i] == 0)
+				if (money % cents[i] == 0)
 				{
 					break;
 				}

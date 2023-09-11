@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include "dog.h"
 /**
   * _strlen - function that returns the length of a string

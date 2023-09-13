@@ -4,17 +4,17 @@
   * int_index -  function that searches for an integer.
   * @array: input
   * @size: input2
-  * @cmd: input
+  * @cmp: input
   * Return: always 0
   */
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i = 0;
-	
-	if (array && size && cmd)
+
+	if (array && size && cmp)
 		while (i < size)
 		{
-			if (cmd(array[i]))
+			if (cmp(array[i]))
 				return (i);
 			i++;
 		}
